@@ -1,22 +1,66 @@
-html {
-
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-
-    color: red;
-
+    background-color: cornflowerblue;
 }
 
-header {
-
+#check {
+    display: none;
 }
 
-main {
-
+#icone {
+    cursor: pointer;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
 }
 
-footer {
-
+.barra {
+    background-color: black;
+    min-height: 100%;
+    width: 250px;
+    position: fixed;
+    transition: all .2s linear;
+    left: -300px;
 }
 
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.link {
+    background-color: rgb(black);
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    transition: all .2s linear;
+    color: white;
+    border-bottom: 2px solid white;
+    opacity: 0;
+    margin-top: 200px;
+}
+
+.link:hover {
+    background-color: white;
+    color: black;
+}
+
+#check:checked ~ .barra {
+    transform: translateX(300px);
+}
+
+#check:checked ~ .barra nav a .link {
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .2s;
+}
