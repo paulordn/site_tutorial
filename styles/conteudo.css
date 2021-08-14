@@ -1,17 +1,30 @@
+/*Header*/
 .tituloheader {/*Titulo principal*/
     text-align: center;/*Alinhar ao centro*/
     font-family: serif;/*Fonte*/
-    padding: 20px;/*Distância*/
-    background-color: lightgreen;/*Fundo*/
+    padding: 30px;/*Distância*/
+    background-image: linear-gradient(90deg, #000000, #434343);/*Fundo*/
+    color: white;/*Cor fonte*/
 }
 
+
+/*Main*/
 .subtitulo {/*Subtitulos*/
     text-align: right;/*Alinhamento a direita*/
     margin: 20px;/*Margens*/
     margin-right: 30px;/*Margem direita*/
     font-family: serif;/*Fonte*/
+    color: white;/*Cor fonte*/
 }
-
-.imagens {/*Imagens*/
+.conteudo1 {/*Parte1*/
     text-align: center;/*Alinhamento ao centro*/
+}
+.conteudo1 img {/*Diretamente imagens*/
+    border-radius: 20px;/*Bordas img's*/
+}
+.texto {/*Texto conteúdo*/
+    font-family: 'Courier New', Courier, monospace;/*Fonte*/
+    font-size: 25px;/*Tamanho fonte*/
+    padding: 30px;/*Distância*/
+    color: white;/*Cor fonte*/
 }

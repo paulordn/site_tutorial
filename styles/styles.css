@@ -7,7 +7,7 @@
 
 /*Body*/
 body {/*Fundo site*/
-    background-color: cornflowerblue;/*Cor fundo*/
+    background-image: linear-gradient(90deg, #DA22FF, #9733ee);/*Cor fundo*/
 }
 
 
@@ -79,10 +79,6 @@ footer {/*Footer em si*/
     text-align: center;/*Alinhamento ao centro*/
     list-style-type: none;/*Decoração nula*/
     padding-top: 20px;/*Padding acima*/
-}
-.titulofooter {/*Titulo footer*/
-    padding-bottom: 20px;/*Padding abaixo*/
-    font-size: 35px;
 }
 #membros {/*Id membros*/
     font-size: 20px;/*Tamanho fonte*/
