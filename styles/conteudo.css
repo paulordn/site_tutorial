@@ -1,0 +1,17 @@
+.tituloheader {/*Titulo principal*/
+    text-align: center;/*Alinhar ao centro*/
+    font-family: serif;/*Fonte*/
+    padding: 20px;/*Distância*/
+    background-color: lightgreen;/*Fundo*/
+}
+
+.subtitulo {/*Subtitulos*/
+    text-align: right;/*Alinhamento a direita*/
+    margin: 20px;/*Margens*/
+    margin-right: 30px;/*Margem direita*/
+    font-family: serif;/*Fonte*/
+}
+
+.imagens {/*Imagens*/
+    text-align: center;/*Alinhamento ao centro*/
+}
