@@ -1,112 +1,98 @@
-html {
-    background-image: linear-gradient(90deg, #000000, #434343);
-
+/*Envolve tudo*/
+* {/*Formatação site por inteiro*/
+    margin: 0;/*Margem*/
+    padding: 0;/*Padding*/
 }
 
-* {
-    margin: 0;
-    padding: 0;
+
+/*Body*/
+body {/*Fundo site*/
+    background-color: cornflowerblue;/*Cor fundo*/
 }
 
-body {
-    background-color: cornflowerblue;
-}
 
-#check {
-    display: none;
+/*Menu lateral fixo*/
+#check {/*Input check - icon menu*/
+    display: none;/*Display nulo*/
 }
-
-#icone {
-    cursor: pointer;
-    padding: 15px;
-    position: fixed;
+#icone {/*Icon menu*/
+    cursor: pointer;/*Cursor sobre icon*/
+    padding: 15px;/*Tamanho*/
+    position: fixed;/*Posição fixa em relação a página*/
     z-index: 1;
 }
-
-.barra {
-    background-color: black;
-    min-height: 100%;
-    width: 250px;
-    position: fixed;
-    transition: all .2s linear;
+.barra {/*Div elementos do menu*/
+    background-color: black;/*Fundo*/
+    min-height: 100%;/*Tamanho minimo de altura*/
+    width: 250px;/*Tamanho largura*/
+    position: fixed;/*Posição fixa em relação a página*/
+    transition: all .2s linear;/*Transição*/
     left: -300px;
 }
-
-nav {
-    width: 100%;
-    position: absolute;
-    top: 60px;
+.navmenu {/*Nav elementos menu*/
+    width: 100%;/*Largura*/
+    position: absolute;/*Posição*/
+    top: 60px;/*Distância acima do icon*/
 }
-
-nav a {
-    text-decoration: none;
+.navmenu a {/*Nav a elementos menu*/
+    text-decoration: none;/*Linha de link nula*/
 }
-
-.link {
-    background-color: rgb(black);
-    padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    text-align: center;
-    transition: all .2s linear;
-    color: white;
-    border-bottom: 2px solid white;
-    opacity: 0;
-    margin-top: 200px;
+.link {/*Links*/
+    background-color: rgb(black);/*Fundo*/
+    padding: 20px;/*Tamanho*/
+    font-family: 'Times New Roman', Times, serif;/*Fonte formato*/
+    font-size: 25px;/*Tamanho fonte*/
+    text-align: center;/*Alinhado ao centro*/
+    transition: all .2s linear;/*Transição*/
+    color: white;/*Cor texto*/
+    border-bottom: 2px solid white;/*Bordas*/
+    opacity: 0;/*Opacidade*/
+    margin-top: 200px;/*Margem acima*/
 }
-
-.link:hover {
-    background-color: white;
-    color: black;
+.link:hover {/*Hover link*/
+    background-color: white;/*Cor de fundo*/
+    color: black;/*Cor fonte*/
 }
-
 #check:checked ~ .barra {
     transform: translateX(300px);
 }
-
 #check:checked ~ .barra nav a .link {
     opacity: 1;
     margin-top: 0;
     transition-delay: .2s;
 }
-
-footer {
-
-    background-image: linear-gradient(90deg, #232526, #414345);
-    color:crimson;
-    font-size: 20px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+.github {
     text-align: center;
-    
+    padding-top: 20px;
 }
-
-.footer {
-
-    text-align: center;
-    color: red;  
-    padding-top: 5px;
-}
-
-footer a {
-    
-    text-decoration: none;
-    display: flex;
-    justify-content: flex-end;
-    color: whitesmoke;
-}
-
-h5 {
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    padding: 1%;
-}
-
-.logo a {
-
-    margin-right: +20px;
+.github:hover {
+    background-color: gray;
 }
 
 
-
-
+/*Footer*/
+footer {/*Footer em si*/
+    background-image: linear-gradient(90deg, #000000, #454545);/*Fundo*/
+    color:white;/*Cor fonte*/
+    font-size: 20px;/*Tamanho fonte*/
+    font-family: 'Courier New', Courier, monospace;/*Fonte*/
+    text-align: center;/*Alinhamento ao centro*/
+    list-style-type: none;/*Decoração nula*/
+    padding-top: 20px;/*Padding acima*/
+}
+.titulofooter {/*Titulo footer*/
+    padding-bottom: 20px;/*Padding abaixo*/
+    font-size: 35px;
+}
+#membros {/*Id membros*/
+    font-size: 20px;/*Tamanho fonte*/
+    font-family: 'Courier New', Courier, monospace;/*Fonte*/
+    padding: 5px;/*Distância*/
+}
+.footerend {/*Footer final*/
+    text-align: center;/*Alinhamento ao centro*/
+    color: white;/*Cor fonte*/
+    padding: 20px;/*Tamanho distância*/
+    font-size: 25px;/*Tamanho fonte*/
+    font-family: 'Courier New', Courier, monospace;/*Tamanho fonte*/
+}
