@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/styles.css"><!--Style Menu lateral fixo + footer-->
     <link rel="stylesheet" href="styles/conteudo.css"><!--Style Conteúdo do site por si-->
     <link rel="icon" href="imagens/favicon-32x32.png"><!--Icon da página-->
-    <title>Nexus Group Tutorial</title><!--Titulo-->
+    <title>Nexus Group | Tutorial</title><!--Titulo-->
 </head>
 <body>
     <!--Menu lateral fixo-->
@@ -29,18 +29,60 @@
     </header>
 
     <main><!--Corpo site-->
+        <h1 class="aviso">Atenção! Você deverá possuir conta no GitHub e a ferramenta Git instalada<!--Aviso inicial-->
+            em seu computador e conectada ao VSCODE, para realização desta atividade.</h1><!--Aviso inicial-->
         <h1 href="parte1" class="subtitulo">PARTE I</h1><!--Subtitulo-->
-        <div class="conteudo1"><!--Div tutorial 1-->
-            <h1 class="texto">- Clique no botão "new" na aba repositório.</h1><!--Texto-->
-            <img src="imagenstutorial/parte1/print_botão_new.PNG" alt="img1part1"><!--Img-->
-            <h1 class="texto">- Insira um nome para o repositório, descrição (opcional) e deixe-o público.</h1><!--Texto-->
-            <img src="imagenstutorial/parte1/print_criando_repositorio.PNG" alt="img2part1"><!--Img-->
-            <h1 class="texto">- Após as fases antecendentes clique em "Create repository".</h1><!--Texto-->
-            <img src="imagenstutorial/parte1/print_botão_criar.PNG" alt="img3part1"><!--Img-->
-        </div>
+            <div class="conteudo1"><!--Div tutorial 1-->
+                <h1 class="texto">- Primeiramente crie um repositório no seu github. Já dentro do github acesse <!--Texto-->
+                "Repositories" e clique no botão denominado "New", localizado na parte superior da tela à direita.</h1><!--Texto-->
+                <img src="imagenstutorial/parte1/print_botão_new.PNG" alt="img1part1"><!--Img-->
+                <h1 class="texto">- Insira um nome para o repositório (ex: teste), descrição (opcional) e deixe-o público.</h1><!--Texto-->
+                <img src="imagenstutorial/parte1/print_criando_repositorio.PNG" alt="img2part1"><!--Img-->
+                <h1 class="texto">- Após as fases antecendentes clique em "Create repository". E pronto! Primeira parte finalizada com sucesso.</h1><!--Texto-->
+                <img src="imagenstutorial/parte1/print_botão_criar.PNG" alt="img3part1"><!--Img-->
+            </div>
         <h1  href="parte2" class="subtitulo">PARTE II</h1><!--Subtitulo-->
+            <div class="conteudo2"><!--Div tutorial 2-->
+                <h1 class="texto">- Agora acesse o gerenciador de arquivos do seu computador e crie uma pasta.</h1><!--Texto-->
+                <img src="imagenstutorial/parte2/print_pasta_criada.PNG" alt="img1part2"><!--Img-->
+                <h1 class="texto">- Em seguida abra a pasta pelo "Git Bash here", (clique com botão direito do mouse sobre a pasta e irá surgir a opção). Caso não tenha logado<!--Texto-->
+                    em seu git use os seguintes comandos iniciais: git config --local name.user "nome usuário" // git config --global name.email "nome@gmail.com"</h1><!--Texto-->
+                <img src="imagenstutorial/parte2/print_abrir_git.jpeg" alt="img2part2"><!--Img-->
+                <h1 class="texto">- Já com o Git Bash aberto use o comando a seguir (sem as aspas): " git clone https://github.com/ nome de usuário / repositório.git ".</h1><!--Texto-->
+                <img src="imagenstutorial/parte2/print_clonando.PNG" alt="img3part2"><!--Img-->
+                <h1 class="texto">- Após já com o seu Git Bash sincronizado ao VSCODE use o comando " code . " para abrir o VSCODE.</h1><!--Texto-->
+                <img src="imagenstutorial/parte2/print_codeponto.PNG" alt="img4part2"><!--Img-->
+                <h1 class="texto">- No VSCODE crie um novo arquivo chamado " index.html ". Edite ao seu gosto e salve.</h1><!--Texto-->
+                <img src="imagenstutorial/parte2/print_new_file.jpeg" alt="img5part2"><!--Img-->
+                <h1 class="texto">- Após criar e editar seu arquivo, volte ao Git Bash e use o comando " git status ", (comando para verificar status do repositório).</h1><!--Texto-->
+                <img src="imagenstutorial/parte2/print_git_status.PNG" alt="img6part2"><!--Img-->
+                <h1 class="texto">- Após use o comando " git add nome do arquivo ". para adicionar um arquivo em especifico, (ex: git add index.html).</h1><!--Texto-->
+                <img src="imagenstutorial/parte2/print_git_add.PNG" alt="img7part2"><!--Img-->
+                <h1 class="texto">- Depois utilize o comando " git commit -m comentário " para comitar o arquivo adicionado anteriormente. Caso haja diversos arquivos<!--Texto-->
+                    para adiconar, repita esses processos anteriores até que todos sejam adicionados e comitados.</h1><!--Texto-->
+                <img src="imagenstutorial/parte2/print_git_commit.PNG" alt="img8part2"><!--Img-->
+                <h1 class="texto">- Após adicionar e comitar todos os arquivos utilize o comando " git push ", para adicioná-lo ao repositório do GitHub. E pronto! Parte II finalizada com sucesso.</h1><!--Texto-->
+                <img src="imagenstutorial/parte2/print_git_push.PNG" alt="img9part2"><!--Img-->
+            </div>
         <h1  href="parte3" class="subtitulo">PARTE III</h1><!--Subtitulo-->
+            <div class="conteudo3"><!--Div Tutorial 3-->
+                <h1 class="texto">- Volte ao repositório no Github e vá a aba "Code", veja que os arquivos adicionados estarão lá e comitados.</h1><!--Texto-->
+                <img src="imagenstutorial/parte3/print_arquivo_adicionado.PNG" alt="img1part3"><!--Img-->
+                <h1 class="texto">- Agora acesse a aba Settings e selecione "Pages", no menu lateral.</h1><!--Texto-->
+                <img src="imagenstutorial/parte3/print_pages.PNG" alt="img2part3"><!--Img-->
+                <h1 class="texto">- Selecione o botão com a informação "None".</h1><!--Texto-->
+                <img src="imagenstutorial/parte3/print_none.PNG" alt="img3part3"><!--Img-->
+                <h1 class="texto">- Selecione a opção "master".</h1><!--Texto-->
+                <img src="imagenstutorial/parte3/print_branch_master.PNG" alt="img4part3"><!--Img-->
+                <h1 class="texto">- Após selecione a opção "Save".</h1><!--Texto-->
+                <img src="imagenstutorial/parte3/print_save.PNG" alt="img5part3"><!--Img-->
+                <h1 class="texto">- Por fim espere a publicação do pages e fim. Sua página estará disponível para acesso de qualquer lugar do mundo!</h1><!--Texto-->
+                <img src="imagenstutorial/parte3/print_site_no_ar.PNG" alt="img6part3"><!--Img-->
+            </div>
         <h1  href="parte4" class="subtitulo">PARTE IV</h1><!--Subtitulo-->
+            <div class="conteudo4"><!--Div Tutorial 4-->
+
+            </div>
     </main>
 
     <footer><!--Footer-->
