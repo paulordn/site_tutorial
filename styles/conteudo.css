@@ -9,6 +9,13 @@
 
 
 /*Main*/
+.aviso {/*Texto aviso*/
+    font-size: 30px;/*Tamanho fonte*/
+    color: white;/*Cor*/
+    margin: 100px;/*Margem*/
+    font-family: 'Times New Roman', Times, serif;/*Fonte*/
+    text-align: justify;/*Alinhamento*/
+}
 .subtitulo {/*Subtitulos*/
     text-align: right;/*Alinhamento a direita*/
     margin: 20px;/*Margens*/
@@ -27,4 +34,18 @@
     font-size: 25px;/*Tamanho fonte*/
     padding: 30px;/*Distância*/
     color: white;/*Cor fonte*/
+    text-align: justify;/*Alinhamento*/
+    padding: 100px;/*Distância*/
+}
+.conteudo2 {/*Parte2*/
+    text-align: center;/*Alinhamento ao centro*/
+}
+.conteudo2 img {/*Diretamente imagens*/
+    border-radius: 15px;/*Bordas img's*/
+}
+.conteudo3 {/*Parte3*/
+    text-align: center;/*Alinhamento ao centro*/
+}
+.conteudo3 img {/*Diretamente imagens*/
+    border-radius: 15px;/*Bordas img's*/
 }
