@@ -49,3 +49,10 @@
 .conteudo3 img {/*Diretamente imagens*/
     border-radius: 15px;/*Bordas img's*/
 }
+.conteudo4 {/*Parte3*/
+    text-align: center;/*Alinhamento ao centro*/
+}
+.conteudo4 iframe {/*Diretamente imagens*/
+    border-radius: 15px;/*Bordas img's*/
+    padding-bottom: 60px;/*Distância abaixo*/
+}
