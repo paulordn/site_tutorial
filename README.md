@@ -14,7 +14,7 @@ Tabela de conteúdos
  <h4 align="center"> 
 	🚧  Site_tutorial 🚀 Completo ✅
 </h4>
-### Features
+<h2>Features</h2>
 
 - [x] Menu Lateral 
 - [x] Video Tutorial  
